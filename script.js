@@ -1,1 +1,3 @@
-console.log ("Olá Mundo");
+console.log("Olá Mundo");
+
+document.write("Olá Navegador!");
