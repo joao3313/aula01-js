@@ -39,7 +39,7 @@ nota04 = parseFloat(nota04);
 //var mensagem = nome + ", você obteve a média : " + media;
 //window.alert (mensagem);
 
-var mensagem == nome + ", vocês tiveram a média de nota:",media;
+var mensagem = nome + ", vocês tiveram a média de nota:",media;
 window.alert(mensagem);
 
 //window.alert("A média da notas e:"+ media);
