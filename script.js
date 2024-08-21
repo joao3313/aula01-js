@@ -34,6 +34,7 @@ var nota03 = window.prompt("Digite a nota 3");
 nota03 = parseFloat(nota03)
 var nota04 = window.prompt("Digite a nota 4");
 nota04 = parseFloat(nota04);
+var media = (nota01 + nota02 + nota03 + nota04)/4;
 
 //exibe mensagem nome:
 //var mensagem = nome + ", você obteve a média : " + media;
