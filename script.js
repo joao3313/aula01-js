@@ -46,3 +46,36 @@ window.alert (mensagem);
 //window.alert(mensagem);
 
 //window.alert("A média da notas e:"+ media);
+
+//Alt+shit+baixo 
+
+/* 
+Outro modelo de calculo media entre 2 alunos
+
+var nome1, nome2 = "",
+var nota1, nota2, nota3, nota4, nota5, nota6, nota7, nota8 = 0;
+
+     posso usar o windows.prompt ou não
+nome1 = prompt("Digite o Nome do Aluno 1:");
+nota1 = parseFloat(prompt("Digite a Nota1 do Aluno 1:"));
+nota2 = parseFloat(prompt("Digite a Nota1 do Aluno 2:"));
+nota3 = parseFloat(prompt("Digite a Nota1 do Aluno 3:"));
+nota4 = parseFloat(prompt("Digite a Nota1 do Aluno 4:"));
+
+nome2 = prompt("Digite o Nome do Aluno 2:");
+nota5 = parseFloat(prompt("Digite a Nota1 do Aluno 5:"));
+nota6 = parseFloat(prompt("Digite a Nota1 do Aluno 6:"));
+nota7 = parseFloat(prompt("Digite a Nota1 do Aluno 7:"));
+nota8 = parseFloat(prompt("Digite a Nota1 do Aluno 8:"));
+
+var media1, media2 = 0;
+
+media1 = (nota1+nota2+nota3+nota4)/4;
+media2 = (nota5+nota6+nota7+nota8)/4;
+
+var mensagem = `${nome1}, sua média é ${media1}, Parabéns!
+var mensagem = `${nome2}, sua média é ${media2}, Parabéns!
+
+` ;
+alert(mensagem);
+
